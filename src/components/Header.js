@@ -58,10 +58,8 @@ export const Header = () => {
                         <h3>
                             <span>Developer FullStack</span>,{" "}
                             Frontend <span>  React.Js / Vue.js / Java y NodeJS / Python</span> en Backend                                 <span>scrolling y lea mas acerca de mi</span>
-
                             <a className="smoothscroll" href="#about">
                             </a>
-
                         </h3>
                         <hr />
                         <ul className="social">

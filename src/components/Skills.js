@@ -48,6 +48,14 @@ export const Skills = () => {
                                     <span className="bar-expand boot" />
                                     <em>Bootstrap 4</em>
                                 </li>
+                                <li>
+                                    <span className="bar-expand api" />
+                                    <em>API-REST</em>
+                                </li>
+                                <li>
+                                    <span className="bar-expand graph" />
+                                    <em>GraphQL</em>
+                                </li>
                             </ul>
                         </div>
                         {/* end skill-bars */}
