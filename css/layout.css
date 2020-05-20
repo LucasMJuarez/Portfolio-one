@@ -39,7 +39,6 @@ header {
    background-size: cover !important;
    background-blend-mode: soft-light;
    -webkit-background-size: cover !important;
-
    text-align: center;
    overflow: hidden;
 }
@@ -152,8 +151,8 @@ header .scrolldown a:hover {
 #nav-wrap a {
    margin: 0;
    padding: 0;
-   border: none;
-   outline: none;
+   border: blue;
+   outline: hidden;
 }
 
 /* nav-wrap */
@@ -170,7 +169,7 @@ header .scrolldown a:hover {
 }
 
 .opaque {
-   background-color: #333;
+   background-color: #333);
 }
 
 /* hide toggle button */
@@ -203,7 +202,7 @@ ul#nav li a {
    line-height: 32px;
    text-decoration: none;
    text-align: left;
-   color: #fff;
+   color: rgb(48, 95, 39);
 
    -webkit-transition: color .2s ease-in-out;
    -moz-transition: color .2s ease-in-out;
@@ -295,8 +294,8 @@ ul#nav li.current a {
 
 #resume {
    background: #fff;
-   padding-top: 90px;
-   padding-bottom: 22px;
+   padding-top: 96px;
+   padding-bottom: 66px;
    overflow: hidden;
 }
 
@@ -363,8 +362,8 @@ ul#nav li.current a {
 
 #works {
    background: rgb(233, 236, 236);
-   padding-top: 20px;
-   padding-bottom: 40px;
+   padding-top: 96px;
+   padding-bottom: 66px;
    overflow: hidden;
 }
 
@@ -424,8 +423,8 @@ ul#nav li.current a {
 
 #skills {
    background: #fff;
-   padding-top: 30px;
-   padding-bottom: 52px;
+   padding-top: 96px;
+   padding-bottom: 66px;
    overflow: hidden;
 }
 
@@ -595,6 +594,18 @@ ul#nav li.current a {
 }
 
 .node {
+   width: 71%;
+   animation: node 4s ease;
+   -webkit-animation: node 4s ease;
+}
+
+.graph {
+   width: 60%;
+   animation: drupal 4s ease;
+   -webkit-animation: drupal 4s ease;
+}
+
+.api {
    width: 71%;
    animation: node 4s ease;
    -webkit-animation: node 4s ease;
@@ -982,8 +993,8 @@ ul#nav li.current a {
 
 #portfolio {
    background: #ebeeee;
-   padding-top: 90px;
-   padding-bottom: 60px;
+   padding-top: 96px;
+   padding-bottom: 66px;
 }
 
 #portfolio h1 {
@@ -1294,7 +1305,7 @@ call-to-action .button {
 /* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider .slides>li {
    display: none;
-   -webkit-backface-visibility: hidden;
+   -webkit-backface-visibility: visible;
 }
 
 /* Suggested container for slide animation setups. Can replace this with your own */
@@ -1379,7 +1390,7 @@ call-to-action .button {
 #contact {
    background: #09090a;
    padding-top: 96px;
-   padding-bottom: 102px;
+   padding-bottom: 66px;
    color: #636363;
 }
 
