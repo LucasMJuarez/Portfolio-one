@@ -1,3 +1,9 @@
+Portfolio: https://lucasmjuarez.github.io/Portfolio-one/
+
+[![portfolio.jpg](https://i.postimg.cc/6Qkk9NkN/portfolio.jpg)](https://postimg.cc/SXGTrHQZ)
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
