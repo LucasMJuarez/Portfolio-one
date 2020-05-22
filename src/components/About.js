@@ -35,7 +35,7 @@ export const About = () => {
                             <div className="columns download">
                                 <p>
                                     <a href="https://media-exp1.licdn.com/dms/image/C4E2DAQHbLE-SZjXM5A/profile-treasury-document-cover-images_480/0?e=1590004800&v=beta&t=aZzKbUUwcIZJzp6HhFq7NMOrycbOw5Zj2cx4qWemGME" className="button">
-                                        <i className="fa fa-download" />
+                                        <i className="fa fa-file-download" />
                                     Download Resume
                                 </a>
                                 </p>
