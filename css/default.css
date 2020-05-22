@@ -39,6 +39,7 @@ e. Others
 
 html,
 body,
+
 div,
 span,
 object,
@@ -233,6 +234,8 @@ body {
    -webkit-text-size-adjust: 100%;
 }
 
+
+
 /*  2. Typography
        Vertical rhythm with leading derived from 6
 --------------------------------------------------------------------- */
@@ -366,6 +369,9 @@ blockquote cite a:visited {
    color: #8B9798;
    border: none
 }
+
+
+
 
 /* ---------------------------------------------------------------------
 /*  Pull Quotes Markup
