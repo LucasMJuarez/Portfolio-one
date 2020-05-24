@@ -31,8 +31,8 @@ body {
 /* ------------------------------------------------------------------ */
 
 header {
-   position: relative;
-   height: 800px;
+   position: absolute;
+   height: 1000px;
    min-height: 500px;
    width: 100%;
    background: #161415 url(../images/header-background.jpg) no-repeat top center;
@@ -227,7 +227,6 @@ ul#nav li.current a {
 
 #about {
    position: relative;
-   height: 800px;
    min-height: 500px;
    width: 100%;
    background: #161415 url(../images/testimonial-bg.jpg) no-repeat top center;
@@ -258,7 +257,7 @@ ul#nav li.current a {
 }
 
 #about p {
-   line-height: 30px;
+   line-height: 28px;
    color: rgb(248, 239, 239);
    text-align: justify;
 }
@@ -269,11 +268,12 @@ ul#nav li.current a {
    width: 200px;
    height: 220px;
    border-radius: 90%;
+   float: left;
+   text-align: justify;
 }
 
 #about .contact-details {
    width: 41.66667%;
-
 }
 
 #about .download {
@@ -378,7 +378,7 @@ ul#nav li.current a {
 
 #resume .timeline::before {
    content: "";
-   display: block;
+   display: flexbox;
    width: 2px;
    height: 75%;
    background-color: rgba(0, 0, 0, 0.1);
@@ -437,11 +437,11 @@ ul#nav li.current a {
 }
 
 #works .header-col {
-   padding-top: 9px;
+   padding-top: 12px;
 }
 
 #works .main-col {
-   padding-right: 5%;
+   padding-right: 10%;
    padding-left: 10%;
 }
 
@@ -462,16 +462,24 @@ ul#nav li.current a {
    margin-top: 6px;
 }
 
+#works .timeline {
+   position: relative;
+   text-align: left;
+   margin-top: 3.6rem;
+   left: -0.5rem;
+}
+
 #works .timeline::before {
    content: "";
-   display: block;
-   width: 1px;
-   height: 100%;
+   display: flex;
+   width: 2px;
+   height: 115%;
    background-color: rgba(0, 0, 0, 0.1);
    position: absolute;
-   left: 8rem;
+   left: -2rem;
    top: 0;
 }
+
 
 #works .timeline-bullet {
    background: #0D0A0B;
@@ -482,8 +490,8 @@ ul#nav li.current a {
    margin-left: -5rem;
    box-shadow: 0 0 0 9px rgb(219, 208, 208);
    position: absolute;
-   left: 2rem;
-   top: .3rem;
+   left: 2.5rem;
+   top: .5rem;
 }
 
 /* ------------------------------------------------------------------ */
@@ -1062,7 +1070,6 @@ ul#nav li.current a {
 
 #portfolio {
    position: relative;
-   height: 800px;
    min-height: 500px;
    width: 100%;
    background: #161415 url(../images/backresumen.png) no-repeat top center;
@@ -1089,6 +1096,7 @@ ul#nav li.current a {
    margin-left: 32px;
    width: 280px;
    height: 280px;
+   overflow: hidden;
 }
 
 .portfolio-item .item-wrap {
