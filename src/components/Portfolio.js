@@ -2,14 +2,15 @@ import React from 'react';
 
 export const Portfolio = () => {
     return (
-        <div className="container p-4">
+        
             <section id="portfolio">
                 <div className="row">
-                    <div className="twelve columns collapsed">
+                    <div className="twelve columns ">
                         <h1>Algunos de mis Repositorios.</h1>
                         {/* portfolio-wrapper */}
-                        <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-                            <div className="columns portfolio-item">
+
+                        <div id="portfolio-wrapper" className="bgrid-sixths s-bgrid-sixths cf">
+                            <div className=" columns portfolio-item">
                                 <div className="item-wrap">
                                     <a href="#modal-02" title>
                                         <img alt="" src="images/portfolio/next2.jpg" />
@@ -23,7 +24,7 @@ export const Portfolio = () => {
                                     </a>
                                 </div>
                             </div> {/* item end */}
-                            <div className="columns portfolio-item">
+                            <div className=" columns portfolio-item">
                                 <div className="item-wrap">
                                     <a href="#modal-05" title>
                                         <img alt="" src="images/portfolio/vuetify.jpg" />
@@ -37,7 +38,7 @@ export const Portfolio = () => {
                                     </a>
                                 </div>
                             </div> {/* item end */}
-                            <div className="columns portfolio-item">
+                            <div className=" columns portfolio-item">
                                 <div className="item-wrap">
                                     <a href="#modal-03" title>
                                         <img alt="" src="images/portfolio/flask.jpg" />
@@ -51,7 +52,7 @@ export const Portfolio = () => {
                                     </a>
                                 </div>
                             </div> {/* item end */}
-                            <div className="columns portfolio-item">
+                            <div className=" columns portfolio-item">
                                 <div className="item-wrap">
                                     <a href="#modal-06" title>
                                         <img alt="" src="images/portfolio/crud-4.jpg" />
@@ -65,7 +66,7 @@ export const Portfolio = () => {
                                     </a>
                                 </div>
                             </div> {/* item end */}
-                            <div className="columns portfolio-item">
+                            <div className=" columns portfolio-item">
                                 <div className="item-wrap">
                                     <a href="#modal-04" title>
                                         <img alt="" src="images/portfolio/reactgraphql.jpg" />
@@ -79,7 +80,7 @@ export const Portfolio = () => {
                                     </a>
                                 </div>
                             </div> {/* item end */}
-                            <div className="columns portfolio-item">
+                            <div className=" columns portfolio-item">
                                 <div className="item-wrap">
                                     <a href="#modal-01" title>
                                         <img alt="" src="images/portfolio/reactnotas.jpg" />
@@ -170,6 +171,5 @@ export const Portfolio = () => {
                     </div> {/* modal-06 End */}
                 </div> {/* row End */}
             </section>
-        </div>
     );
 }

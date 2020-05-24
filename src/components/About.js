@@ -2,13 +2,13 @@ import React from 'react';
 
 export const About = () => {
     return (
-        <div className="container p-4">
+        <div className="container p-4 ">
             <section id="about">
-                <div className="row">
-                    <div className="three columns">
-                        <img className="profile-pic" src="images/profilepic.jpg" alt="" />
+                <div className="row ">
+                    <div className="three columns main-col ">
+                        <img className="profile-pic " src="images/profilepic.jpg" alt="" />
                     </div>
-                    <div className="nine columns main-col">
+                    <div className="nine columns main-col ">
                         <h2>Acerca de mi</h2>
                         <p>
                             Desde siempre orientado a lo que de técnica y tecnología se refiere tanto desde el plano educacional al haber asistido, primeramente a un colegio Técnico donde se tiene la oportunidad de pasar, en mayor o menor medida por distintas áreas de lo que en un futuro puedo o no ser una salida laboral, a proseguir luego de esto a ingresar a una institución como la UTN para seguir ampliando mis conocimientos y acrecentar mis oportunidades futuras.

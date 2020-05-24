@@ -1,9 +1,8 @@
 import React from 'react'
 
-
 export const Resume = () => {
     return (
-        <div className="container p-4">
+        <div className="container p-4 flex">
             <section id="resume">
                 <div className="row education">
                     <div className="three columns header-col">
@@ -26,7 +25,6 @@ export const Resume = () => {
                         <div className="row item">
                             <div className="twelve columns">
                                 <div className="timeline-bullet"></div>
-
                                 <h3>Utn - Facultad Regional Villa María</h3>
                                 <p className="info">
                                     Ingenieria Electrónica (Tesis en curso) <span>•</span>{" "}
