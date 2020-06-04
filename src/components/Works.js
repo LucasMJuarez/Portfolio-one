@@ -24,8 +24,10 @@ export const Works = () => {
                                     <em className="date"> 2018 - Present</em>
                                 </p>
                                 <p>
-                                    Desarrollo y mantenimiento de sitios web, desde blogs en
-                                    Wordpress, Drupal y html/css/Js a paginas y desarrollos varios con Vue.js, React.js .
+                                                     Desarrollo y mantenimiento de sitios web, desde blogs en
+                  Wordpress, Drupal y HTML/CSS/Js. Además pequeños proyectos
+                  autodidactas con Vuejs, Vuex, Vuetify y Quasar como también en
+                  haciendo uso de React.js, Redux y Hooks.
                                 </p>
                             </div>
 
@@ -35,9 +37,9 @@ export const Works = () => {
                             <div className="twelve columns ">
                                 <div className="timeline-bullet"></div>
 
-                                <h3>Trainnig</h3>
+                                <h3>Training</h3>
                                 <p className="info">
-                                    T-training NodeJs en IncluIT <span>•</span>
+                                    Training NodeJs en IncluIT <span>•</span>
                                     <em className="date">Oct 2019 - Nov 2019</em>
                                 </p>
                                 <p>
