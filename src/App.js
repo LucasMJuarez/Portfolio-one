@@ -12,7 +12,7 @@ import { Portfolio } from './components/Portfolio';
 
 function App() {
   return (
-    <div className="App container p-2">
+    <div className="App p-2">
       <Header />
       <About />
       <Resume />

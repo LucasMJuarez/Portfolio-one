@@ -56,6 +56,10 @@ export const Skills = () => {
                                     <span className="bar-expand graph" />
                                     <em>GraphQL</em>
                                 </li>
+                                <li>
+                                    <span className="bar-expand java" />
+                                    <em>Docker</em>
+                                </li>
                             </ul>
                         </div>
                         {/* end skill-bars */}

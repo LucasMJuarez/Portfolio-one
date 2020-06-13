@@ -2,15 +2,16 @@ import React from 'react';
 
 export const Portfolio = () => {
     return (
-        
-            <section id="portfolio">
+        <div class="container p-4">
+               <section id="portfolio">
                 <div className="row">
-                    <div className="twelve columns ">
+                    <div className="twelve columns collapsed">
                         <h1>Algunos de mis Repositorios.</h1>
-                        {/* portfolio-wrapper */}
+                        <span style={{textAlign: 'justify', margin: '25px'}}>Enlace a Repositorios <a href="https://github.com/LucasMJuarez?tab=repositories" ><i className="fa fa-github" /></a></span>
 
-                        <div id="portfolio-wrapper" className="bgrid-sixths s-bgrid-sixths cf">
-                            <div className=" columns portfolio-item">
+                        {/* portfolio-wrapper */}
+                        <div id="portfolio-wrapper" className="bgrid-thirds s-bgrid-halves cf">
+                            <div className="columns portfolio-item">
                                 <div className="item-wrap">
                                     <a href="#modal-02" title>
                                         <img alt="" src="images/portfolio/next2.jpg" />
@@ -24,7 +25,7 @@ export const Portfolio = () => {
                                     </a>
                                 </div>
                             </div> {/* item end */}
-                            <div className=" columns portfolio-item">
+                            <div className="columns portfolio-item">
                                 <div className="item-wrap">
                                     <a href="#modal-05" title>
                                         <img alt="" src="images/portfolio/vuetify.jpg" />
@@ -101,7 +102,6 @@ export const Portfolio = () => {
                         <img className="scale-with-grid" src="images/portfolio/modals/m-reactnotas.jpg" alt="" />
                         <div className="description-box">
                             <h4>React.js</h4>
-                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
                             <span className="categories"><i className="fa fa-tag" />React.js</span>
                         </div>
                         <div className="link-box">
@@ -113,7 +113,6 @@ export const Portfolio = () => {
                         <img className="scale-with-grid" src="images/portfolio/modals/m-next2.jpg" alt="" />
                         <div className="description-box">
                             <h4>Next.js</h4>
-                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
                             <span className="categories"><i className="fa fa-tag" />Next.js</span>
                         </div>
                         <div className="link-box">
@@ -125,7 +124,6 @@ export const Portfolio = () => {
                         <img className="scale-with-grid" src="images/portfolio/modals/m-flask.jpg" alt="" />
                         <div className="description-box">
                             <h4>Crud</h4>
-                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
                             <span className="categories"><i className="fa fa-tag" />Flask</span>
                         </div>
                         <div className="link-box">
@@ -137,7 +135,6 @@ export const Portfolio = () => {
                         <img className="scale-with-grid" src="images/portfolio/modals/m-reactgraphql.jpg" alt="" />
                         <div className="description-box">
                             <h4>GraphQL</h4>
-                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
                             <span className="categories"><i className="fa fa-tag" />React.js</span>
                         </div>
                         <div className="link-box">
@@ -149,7 +146,6 @@ export const Portfolio = () => {
                         <img className="scale-with-grid" src="images/portfolio/modals/m-vuetify.jpg" alt="" />
                         <div className="description-box">
                             <h4>Vuetify</h4>
-                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
                             <span className="categories"><i className="fa fa-tag" />Vue.js</span>
                         </div>
                         <div className="link-box">
@@ -161,7 +157,6 @@ export const Portfolio = () => {
                         <img className="scale-with-grid" src="images/portfolio/modals/m-crud-4.jpg" alt="" />
                         <div className="description-box">
                             <h4>Crud - 4 </h4>
-                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
                             <span className="categories"><i className="fa fa-tag" />React.Js / Hooks</span>
                         </div>
                         <div className="link-box">
@@ -171,5 +166,7 @@ export const Portfolio = () => {
                     </div> {/* modal-06 End */}
                 </div> {/* row End */}
             </section>
+        </div>
+         
     );
 }
