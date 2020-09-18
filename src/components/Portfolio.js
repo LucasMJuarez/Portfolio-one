@@ -126,7 +126,7 @@ export const Portfolio = () => {
                             <div className="columns portfolio-item">
                                 <div className="item-wrap">
                                     <a href="#modal-09" title>
-                                        <img alt="" src="images/portfolio/poke.jpg" />
+                                        <img alt="" src="images/portfolio/poke.png" />
                                         <div className="overlay">
                                             <div className="portfolio-item-meta">
                                                 <h5>React.js</h5>
@@ -230,7 +230,7 @@ export const Portfolio = () => {
                         </div>
                     </div> 
                     <div id="modal-09" className="popup-modal mfp-hide">
-                        <img className="scale-with-grid" src="images/portfolio/modals/m-poke.jpg" alt="" />
+                        <img className="scale-with-grid" src="images/portfolio/modals/m-poke.png" alt="" />
                         <div className="description-box">
                             <h4>Search Autocomplete Pokemons </h4>
                             <span className="categories"><i className="fa fa-tag" />React.Js</span>
