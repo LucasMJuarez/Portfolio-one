@@ -94,7 +94,49 @@ export const Portfolio = () => {
                                         <div className="link-icon"><i className="icon-plus" /></div>
                                     </a>
                                 </div>
-                            </div> {/* item end */}
+                            </div> 
+                            <div className="columns portfolio-item">
+                                <div className="item-wrap">
+                                    <a href="#modal-07" title>
+                                        <img alt="" src="images/portfolio/weather.jpg" />
+                                        <div className="overlay">
+                                            <div className="portfolio-item-meta">
+                                                <h5>Vue.js</h5>
+                                                <p>App</p>
+                                            </div>
+                                        </div>
+                                        <div className="link-icon"><i className="icon-plus" /></div>
+                                    </a>
+                                </div>
+                            </div> 
+                            <div className="columns portfolio-item">
+                                <div className="item-wrap">
+                                    <a href="#modal-08" title>
+                                        <img alt="" src="images/portfolio/imdb.jpg" />
+                                        <div className="overlay">
+                                            <div className="portfolio-item-meta">
+                                                <h5>React.js</h5>
+                                                <p>Search Imdb</p>
+                                            </div>
+                                        </div>
+                                        <div className="link-icon"><i className="icon-plus" /></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="columns portfolio-item">
+                                <div className="item-wrap">
+                                    <a href="#modal-09" title>
+                                        <img alt="" src="images/portfolio/poke.jpg" />
+                                        <div className="overlay">
+                                            <div className="portfolio-item-meta">
+                                                <h5>React.js</h5>
+                                                <p>Poke Autocomplete Search</p>
+                                            </div>
+                                        </div>
+                                        <div className="link-icon"><i className="icon-plus" /></div>
+                                    </a>
+                                </div>
+                            </div>{/* item end */}
                         </div> {/* portfolio-wrapper end */}
                     </div> {/* twelve columns end */}
 
@@ -108,7 +150,7 @@ export const Portfolio = () => {
                             <a href="https://github.com/LucasMJuarez/promedio-notas-react-bootstrap">Detalles</a>
                             <a className="popup-modal-dismiss" href="#portfolio">Cerrar</a>
                         </div>
-                    </div>{/* modal-02 End */}
+                    </div>{/* modal-01 End */}
                     <div id="modal-02" className="popup-modal mfp-hide" >
                         <img className="scale-with-grid" src="images/portfolio/modals/m-next2.jpg" alt="" />
                         <div className="description-box">
@@ -163,7 +205,41 @@ export const Portfolio = () => {
                             <a href="https://github.com/LucasMJuarez/Hooks-crud-react-forms">Detalles</a>
                             <a className="popup-modal-dismiss" href="#portfolio">Cerrar</a>
                         </div>
-                    </div> {/* modal-06 End */}
+                    </div> 
+                    {/* modal-06 End */}
+                    <div id="modal-07" className="popup-modal mfp-hide">
+                        <img className="scale-with-grid" src="images/portfolio/modals/m-weather.jpg" alt="" />
+                        <div className="description-box">
+                            <h4>App Weather - Vue.js </h4>
+                            <span className="categories"><i className="fa fa-tag" />Vue.js</span>
+                        </div>
+                        <div className="link-box">
+                            <a href="https://github.com/LucasMJuarez/vue-weather-app">Detalles</a>
+                            <a className="popup-modal-dismiss" href="#portfolio">Cerrar</a>
+                        </div>
+                    </div> 
+                    <div id="modal-08" className="popup-modal mfp-hide">
+                        <img className="scale-with-grid" src="images/portfolio/modals/m-imdb.jpg" alt="" />
+                        <div className="description-box">
+                            <h4>Search Movies</h4>
+                            <span className="categories"><i className="fa fa-tag" />React.Js / Hooks</span>
+                        </div>
+                        <div className="link-box">
+                            <a href="https://github.com/LucasMJuarez/imdb-searching-react">Detalles</a>
+                            <a className="popup-modal-dismiss" href="#portfolio">Cerrar</a>
+                        </div>
+                    </div> 
+                    <div id="modal-09" className="popup-modal mfp-hide">
+                        <img className="scale-with-grid" src="images/portfolio/modals/m-poke.jpg" alt="" />
+                        <div className="description-box">
+                            <h4>Search Autocomplete Pokemons </h4>
+                            <span className="categories"><i className="fa fa-tag" />React.Js</span>
+                        </div>
+                        <div className="link-box">
+                            <a href="https://github.com/LucasMJuarez/poke-autocomplete-search">Detalles</a>
+                            <a className="popup-modal-dismiss" href="#portfolio">Cerrar</a>
+                        </div>
+                    </div> 
                 </div> {/* row End */}
             </section>
         </div>

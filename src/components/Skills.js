@@ -18,11 +18,11 @@ export const Skills = () => {
                             <ul className="skills">
                                 <li>
                                     <span className="bar-expand react" />
-                                    <em>React.js</em>
+                                    <em>React.js / Redux</em>
                                 </li>
                                 <li>
                                     <span className="bar-expand vue" />
-                                    <em>Vue.js</em>
+                                    <em>Vue.js / Vuex</em>
                                 </li>
                                 <li>
                                     <span className="bar-expand node" />
@@ -106,6 +106,10 @@ export const Skills = () => {
                                 <li>
                                     <span className="bar-expand-2 mysql" />
                                     <em>MySQL</em>
+                                </li>
+                                <li>
+                                    <span className="bar-expand-2 cc" />
+                                    <em>CouchDb</em>
                                 </li>
                             </ul>
                         </div>
